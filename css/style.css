@@ -113,3 +113,14 @@ li{
 .col-md-3{
   cursor: pointer;
 }  
+
+
+@media screen and (max-width:670px){
+  .col-md-3,
+  .col-md-6{
+
+    margin-left: 50px;
+
+  }
+  
+}
