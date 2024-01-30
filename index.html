@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Yummy</title>
+  </head>
+  <body>
+    <div class="sideBar vh-100 bg-warning d-flex">
+      <div
+        class="nav-tab bg-black text-white d-flex flex-column justify-content-between"
+      >
+        <div class="links mt-3">
+          <ul>
+            <li class="position-relative">Search</li>
+            <li class="position-relative">Categories</li>
+            <li class="position-relative">Area</li>
+            <li class="position-relative">Ingrediants</li>
+            <li class="position-relative">Contact Us</li>
+          </ul>
+        </div>
+        <div class="nav-tab-footer px-3">
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="footer">
+            <p>
+              Copyright Â© 2019 All Rights
+              <br />
+              Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="nav-header bg-white d-flex flex-column justify-content-between p-3 align-items-center"
+      >
+        <img src="imgs/logo.png" alt="" />
+        <div class="icon-close">
+          <i class="fa-solid fa-bars fs-1" id="bars"></i>
+          <i class="fa-solid fa-xmark fs-1 d-none" id="close"></i>
+        </div>
+        <div class="head-icon">
+          <i class="fa-solid fa-globe d-block"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </div>
+
+    <div id="searchContainer"></div>
+
+    <div class="position-relative">
+      <div
+        class="loading d-none position-absolute d-flex justify-content-center align-items-center top-0 start-0 end-0 bottom-0"
+      >
+        <span class="loader"></span>
+      </div>
+      <div class="container">
+        <div class="row min-vh-100 py-4 g-4" id="rowData">
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
